@@ -1,0 +1,66 @@
+/* Mixins */
+
+.clearfix
+  *zoom: 1
+  &:before,
+  &:after
+    display: table
+    content: ""
+    line-height: 0
+  
+  &:after
+    clear: both
+
+=transition($properties)
+  -webkit-transition: $properties
+  -moz-transition: $properties
+  -o-transition: $properties
+  transition: $properties
+  -webkit-backface-visibility: hidden
+
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  border-radius: $radius
+
+
+=border-top-left-radius($radius)
+  -webkit-border-radius: $radius 0 0
+  -moz-border-radius: $radius 0 0
+  border-radius: $radius 0 0
+
+
+=border-top-right-radius($radius)
+  -webkit-border-radius: 0 $radius 0 0
+  -moz-border-radius: 0 $radius 0 0
+  border-radius: 0 $radius 0 0
+
+
+=border-bottom-right-radius($radius)
+  -webkit-border-radius: 0 0 $radius
+  -moz-border-radius: 0 0 $radius
+  border-radius: 0 0 $radius
+
+
+=border-bottom-left-radius($radius)
+  -webkit-border-radius: 0 0 0 $radius
+  -moz-border-radius: 0 0 0 $radius
+  border-radius: 0 0 0 $radius
+
+
+=box-sizing($boxmodel: border-box)
+  -webkit-box-sizing: $boxmodel
+  -moz-box-sizing: $boxmodel
+  box-sizing: $boxmodel
+
+
+=box-shadow($properties)
+  -webkit-box-shadow: $properties
+  -moz-box-shadow: $properties
+  box-shadow: $properties
+
+
+=opacity($value)
+  opacity: $value / 100
+  filter: alpha(opacity=#{$value})
