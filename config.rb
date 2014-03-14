@@ -69,3 +69,22 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+# Activate sync extension
+activate :sync do |sync|
+  sync.fog_provider = 'AWS' # Your storage provider
+  sync.fog_directory = 'steelcityruby.org' # Your bucket name
+  sync.fog_region = 'us-east-1' # The region your storage bucket is in (eg us-east-1, us-west-1, eu-west-1, ap-southeast-1 )
+  sync.aws_access_key_id = 'AKIAI2RC6YLS3XUTORBA' # Your Amazon S3 access key
+  sync.aws_secret_access_key = 'UYSQ3RbtDxDbqvbgBIVFvGv922/6mxBVRBiAJZA6' # Your Amazon S3 access secret
+  sync.existing_remote_files = 'delete' # What to do with your existing remote files? ( keep or delete )
+  # sync.gzip_compression = false # Automatically replace files with their equivalent gzip compressed version
+  # sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote   = "gh-pages" # remote name or git url, default: origin
+  # deploy.branch   = "master" # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+end
