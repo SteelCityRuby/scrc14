@@ -1,0 +1,15 @@
+---
+- level: Ohio
+  sponsors:
+    - name: ModCloth
+      twitter: '@ModCloth'
+      url: http://www.modcloth.com
+      img: modcloth.png
+      desc: >
+        Shop the latest indie and retro-style women's clothing at ModCloth.
+        Find dresses, tops, bottoms, outerwear, swimwear, and other fab women's
+        clothing!
+- level: Allegheny
+  sponsors:
+- level: Monongahela
+  sponsors:
