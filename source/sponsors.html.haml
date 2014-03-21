@@ -1,0 +1,27 @@
+---
+title: Sponsor Details | Steel City Ruby Conf 2014 | August 15-16
+---
+
+- y = YAML.parse_file("sponsors.yaml").to_ruby
+
+%section#copy
+  %h1 2014 Sponsors in Detail
+
+  :markdown
+    We thank our very gracious and generous sponsors for their support of SCRC.
+    This event would not be possible without them.
+
+    Want to sponsor? See our [sponsorship information](sponsorship.html).
+
+  - y.each do |level|
+    - unless level['sponsors'].nil?
+      - level['sponsors'].each do |sponsor|
+        %a{href: sponsor['url']}
+          %img{src: "assets/img/sponsor_logos/#{sponsor["img"]}",
+               alt: sponsor["name"]}
+        %p
+          - unless sponsor["twitter"].nil?
+            %a{href: "http://twitter.com/#{sponsor["twitter"]}"}
+              = sponsor["twitter"]
+            \-
+          = sponsor["desc"]
