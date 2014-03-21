@@ -1,141 +1,27 @@
 ---
-title: Sponsors | Steel City Ruby Conf 2014 | August 15-16
+title: Sponsor Details | Steel City Ruby Conf 2014 | August 15-16
 ---
 
 - y = YAML.parse_file("sponsors.yaml").to_ruby
 
 %section#copy
-  %h1 2014 Sponsors
+  %h1 2014 Sponsors in Detail
 
   :markdown
     We thank our very gracious and generous sponsors for their support of SCRC.
     This event would not be possible without them.
-    [Click here](sponsor_details.html) for more information about these
-    companies and organizations.
 
-    Want to sponsor? Look below these great sponsors for more information.
+    Want to sponsor? See our [sponsorship information](sponsorship.html).
 
   - y.each do |level|
-    %h2 #{level["level"]} level
-
-    - if level['sponsors'].nil?
-      %p Your organization could be first!
-    - else
+    - unless level['sponsors'].nil?
       - level['sponsors'].each do |sponsor|
         %a{href: sponsor['url']}
           %img{src: "assets/img/sponsor_logos/#{sponsor["img"]}",
                alt: sponsor["name"]}
-
-  :markdown
-    # Sponsor SCRC
-
-    Why become a sponsor?
-
-    * Be featured alongside some of the most well-known speakers in the Ruby
-      developer community - Past speakers include Aaron Patterson, Corey Haines,
-      Jim Weirich, Avdi Grimm, Konstantin Haase, Leon Gersing, Angela Harms, etc.
-    * Reach 400+ active and passionate software professionals
-    * Booths available in high traffic areas within the event
-    * Sponsor along with some of the most well-known companies in the industry,
-      locally and beyond
-    * Attendees representing the largest software companies in the world -
-      Basecamp, EngineYard, GitHub, LivingSocial, Groupon, Square, Heroku, IBM,
-      Google, etc.
-    * Ongoing exposure - SCRC 2012 and 2013 were sold out months in advance
-    * Continued exposure - All talks are recorded and posted to the internet
-      with sponsor logos
-    * Our anti-harassment policy fosters a safe, professional conference
-      atmosphere
-    * Our attendees love us! Quotes from blog posts: “Steel City Ruby has set
-      the standard”, “An Amazing Experience”, “[SCRC] completely re-energized
-      me.”
-    * We strive to make sure our sponsors get their money’s worth. Sponsoring
-      SCRC is a personal relationship with us, the organizers. We’re never more
-      than a phone call, email, tweet, or coffee away.
-
-    ## Sponsorship contact
-
-    [Colin Dean](https://twitter.com/colindean) is our Sponsorship Director.
-    Contact him and the sponsorship team at <sponsorship@steelcityruby.org>.
-
-    ## Sponsorship packages
-
-  %table
-    %thead
-      %tr
-        %td Level
-        %td Price
-        %td Benefits
-        %td Tickets Included
-        %td Spots Available
-    %tbody
-      %tr
-        %td
-          %b Ohio
-          %i (Gold)
-        %td talk to us
-        %td
-          :markdown
-            * Let us know what you’re looking for.
-            * We can customize a package for you.
-        %td many
-        %td few
-      %tr
-        %td
-          %b Allegheny
-          %i (Silver)
-        %td $1,000⌀
-        %td
-          :markdown
-            * Name and URL included in email blasts to attendees
-            * Logo included in rotating slideshow during event breaks
-            * Logo included on video recordings
-
-            ⌀Plus optional add-ons, see below
-        %td 4
-        %td 14
-      %tr
-        %td
-          %b Monongahela
-          %i (Bronze)
-        %td $300
-        %td
-          :markdown
-            * Listed on the website
-            * Mention on Twitter
-            * Option to pass out swag at the event
-        %td 2
-        %td 21
-
-  :markdown
-    ### Add-ons
-
-    *These add-ons are only available to Allegheny-level and Ohio-level sponsors.*
-
-  %table
-    %thead
-      %tr
-        %td Item
-        %td Cost
-        %td Spots Available
-    %tbody
-      %tr
-        %td Extra ticket
-        %td $50
-        %td 28
-      %tr
-        %td Booth or table in a highly trafficked area
-        %td $400
-        %td 10
-      %tr
-        %td Banner hung in venue
-        %td $400
-        %td 10
-      %tr
-        %td Named breakfast sponsor
-        %td $700
-        %td 4
-      %tr
-        %td Named lunch sponsor
-        %td talk to us
-        %td 2
+        %p
+          - unless sponsor["twitter"].nil?
+            %a{href: "http://twitter.com/#{sponsor["twitter"]}"}
+              = sponsor["twitter"]
+            \-
+          = sponsor["desc"]
