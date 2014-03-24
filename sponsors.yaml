@@ -11,5 +11,14 @@
         clothing!
 - level: Allegheny
   sponsors:
+    - name: HoneyBadger.io
+      twitter: '@honeybadgerapp'
+      url: https://www.honeybadger.io/
+      img: honeybadger.png
+      desc: >
+        HoneyBadger.io provides exception, uptime and performance monitoring for
+        your Ruby applications. It’s the only service you need to make sure your
+        apps are happy and healthy in production.
+      extras: [banner]
 - level: Monongahela
   sponsors:
