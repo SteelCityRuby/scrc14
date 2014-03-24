@@ -32,3 +32,16 @@
         sports teams can keep track of all the players, games, practices,
         attendance, payments and statistics, plus post photos and files and
         communicate with easy team messaging.
+    - name: Pragmatic Programmers
+      twitter: '@pragprog'
+      url: http://www.pragprog.com
+      img: pragprog.png
+      desc: >
+        The Pragmatic Programmers is a company with a simple goal: to improve
+        the lives of developers. We create timely, practical books, audio books
+        and videos on classic and cutting-edge topics to help you learn and
+        practice your craft. Our titles do not contain any Digital Restrictions
+        Management, and have always been DRM-free; we pioneered the “beta book”
+        concept; we’ll email your ebook to your Kindle and synch your ebooks
+        amongst your devices via Dropbox, and you can re-download your purchases
+        at any time. We’re here to make your life easier.
