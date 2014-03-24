@@ -34,6 +34,16 @@
     extras: [banner]
 - level: Monongahela
   sponsors:
+    - name: TeamSnap
+      twitter: '@teamsnap'
+      url: http://teamsnap.com
+      img: teamsnap.png
+      desc: >
+        TeamSnap is a free and easy mobile/web service and management software
+        to run your sports team online. Coaches and managers of adult or youth
+        sports teams can keep track of all the players, games, practices,
+        attendance, payments and statistics, plus post photos and files and
+        communicate with easy team messaging.
     - name: Pragmatic Programmers
       twitter: '@pragprog'
       url: http://www.pragprog.com
