@@ -20,6 +20,16 @@
         your Ruby applications. It’s the only service you need to make sure your
         apps are happy and healthy in production.
       extras: [banner]
+    - name: Not Invented Here
+      twitter: '@nihcomic'
+      url: http://notinventedhe.re
+      img: not_invented_here.png
+      desc: >
+        A comic strip about software development. Behind each great piece of
+        software is a talented, concientious team of hardworking individuals
+        dedicated to producing the highest quality product using internationally
+        accepted best practices and industry standards. And then there are these
+        guys.
 - level: Monongahela
   sponsors:
     - name: TeamSnap
