@@ -20,6 +20,20 @@
         your Ruby applications. It’s the only service you need to make sure your
         apps are happy and healthy in production.
       extras: [banner]
+    - name: New Relic
+      twitter: '@newrelic'
+      url: https://www.newrelic.com
+      img: newrelic.png
+      desc: >
+        New Relic is a software analytics company that makes sense of billions
+        of metrics about millions of applications in real time. Our
+        comprehensive SaaS-based solution provides one powerful interface for
+        web and native mobile applications and consolidates the performance
+        monitoring data for any chosen technology in your environment. Our
+        90,000 customers use our cloud solution every day to optimize more than
+        200 billion metrics for 3 million applications. When your brand and
+        customer experience depend on the performance of modern software, New
+        Relic provides insight into your overall environment. 
 - level: Monongahela
   sponsors:
     - name: TeamSnap
