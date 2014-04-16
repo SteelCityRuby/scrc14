@@ -20,6 +20,18 @@
         your Ruby applications. It’s the only service you need to make sure your
         apps are happy and healthy in production.
       extras: [banner]
+    - name: Stitch Fix
+      twitter: '@stitchfix'
+      url: http://www.stitchfix.com
+      img: stitchfix.png
+      desc: >
+       Stitch Fix is the first fashion retailer to blend expert styling,
+       proprietary technology and unique product to deliver a shopping
+       experience that is truly personalized for you. Simply fill out the Stitch
+       Fix Style Profile and our personal stylists will handpick a "Fix" of five
+       clothing items and accessories unique to your taste, budget and
+       lifestyle. Simply buy what you like and return the rest.
+    extras: [banner]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
