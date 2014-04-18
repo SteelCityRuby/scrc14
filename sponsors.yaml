@@ -30,6 +30,19 @@
         dedicated to producing the highest quality product using internationally
         accepted best practices and industry standards. And then there are these
         guys.
+    - name: Branding Brand
+      twitter: '@brandingbrand'
+      url: http://www.brandingbrand.com
+      img: brandingbrand.com
+      desc: >
+        Branding Brand powers mobile commerce sites and apps for over 200 of
+        the world's leading retailers, including American Eagle Outfitters,
+        Crate & Barrel, Ralph Lauren, and Sephora. Founded in 2008, the
+        Company's B2E (Brand to Everywhere) platform seamlessly extends brands
+        into optimized experiences for smartphones, tablets, and in-store.
+        Named the only mobile commerce leader by Forrester Research, it is
+        also the largest m-commerce provider to the Internet Retailer Top 500.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
@@ -64,4 +77,4 @@
         services providing location-based data serving needs to organizations of
         various sizes around the world.  Affordable, fast, integration-friendly
         services serve location data for technology and marketing companies as a
-        means to learn more about their website visitors and customers.   
+        means to learn more about their website visitors and customers.
