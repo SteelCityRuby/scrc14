@@ -67,16 +67,32 @@ title: Steel City Ruby Conf 2014 | August 15-16
           last seven years, he's been an active in the Ruby community as an
           acclaimed speaker, author and open source contributor. In 2009, he
           received a Ruby Hero Award for his efforts.
-  #cfp
+
+  - y = YAML.parse_file("sponsors.yaml").to_ruby
+  #sponsors
     .row
-      .large-12.columns
-        %h2 Call for Proposals
+      .large-8.columns.large-offset-2
+        %br
+        %h2 Sponsors
+        - y.each_with_index do |level, index|
+          - if level['sponsors'].nil?
+            %p Your organization could be first!
+          - else
+            - level['sponsors'].each do |sponsor|
+              %a{href: sponsor['url']}
+                %img{src: "assets/img/sponsor_logos/#{sponsor["img"]}",
+                     alt: sponsor["name"],
+                     class: "sponsor-img level-#{level["level"].downcase}"}
         %p
-          Join our awesome lineup of invited speakers by
-          submitting to our call for proposals.
-        %p
-          To submit your abstract, visit <a href="http://cfp.steelcityruby.org">
-          our CFP website</a>.
+          :markdown
+            We thank our very gracious and generous sponsors for their support of SCRC.
+            This event would not be possible without them.
+            [Click here](sponsors.html) for more information about these
+            companies and organizations.
+
+            Want to sponsor? [Click here](sponsorship.html)
+            for more information.
+
   #signup
     .row
       .large-12.columns
