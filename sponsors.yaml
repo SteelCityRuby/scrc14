@@ -76,7 +76,7 @@
         services providing location-based data serving needs to organizations of
         various sizes around the world.  Affordable, fast, integration-friendly
         services serve location data for technology and marketing companies as a
-        means to learn more about their website visitors and customers.   
+        means to learn more about their website visitors and customers.
     - name: The Grant T. Olson Endowment for the Arts and Sciences
       twitter:
       url: 'http://bitcoin.org'
@@ -85,3 +85,15 @@
         The Grant T. Olson Endowment for the Arts and Sciences has
         been dedicated to making the world a better place via the power of
         Bitcoin since 2011.
+    - name: Bearded Studio
+      twitter: '@beardedstudio'
+      url: http://bearded.com
+      img: bearded.png
+      desc: >
+        Bearded is a design and web development agency that specializes in
+        responsive content-managed websites and custom applications for the
+        modern, multi-device web. Bearded was founded on the belief that great
+        web design requires close collaboration between designers and developers
+        throughout every project. We're committed to helping move the web
+        forward, and incorporating the most successful and future-friendly
+        technologies in our work.
