@@ -64,7 +64,7 @@
         services providing location-based data serving needs to organizations of
         various sizes around the world.  Affordable, fast, integration-friendly
         services serve location data for technology and marketing companies as a
-        means to learn more about their website visitors and customers.   
+        means to learn more about their website visitors and customers.
     - name: The Grant T. Olson Endowment for the Arts and Sciences
       twitter:
       url: 'http://bitcoin.org'
@@ -73,3 +73,15 @@
         The Grant T. Olson Endowment for the Arts and Sciences has
         been dedicated to making the world a better place via the power of
         Bitcoin since 2011.
+    - name: Coffee and Code
+      twitter: '@coffeeandcode'
+      url: http://coffeeandcode.com
+      img: coffeeandcode.png
+      desc: >
+        Coffee & Code is a passionate, experienced, well-connected digital
+        consultancy and development studio. In the past 9 years, we've helped
+        startups succeed, built solutions for major players in the digital print
+        industry, created web brands for new companies, and supported existing
+        teams to get better results, faster. As supporters of our local tech
+        community, we organize and speak at meetups, volunteer at events, and
+        sponsor what we want to see more of in the world.
