@@ -64,7 +64,7 @@
         services providing location-based data serving needs to organizations of
         various sizes around the world.  Affordable, fast, integration-friendly
         services serve location data for technology and marketing companies as a
-        means to learn more about their website visitors and customers.   
+        means to learn more about their website visitors and customers.
     - name: The Grant T. Olson Endowment for the Arts and Sciences
       twitter:
       url: 'http://bitcoin.org'
@@ -73,3 +73,18 @@
         The Grant T. Olson Endowment for the Arts and Sciences has
         been dedicated to making the world a better place via the power of
         Bitcoin since 2011.
+    - name: LeanDog
+      twitter: '@LeanDog'
+      url: http://www.leandog.com/
+      img: leandog.png
+      desc: >
+        we are dedicated craftsmen who believe that iterative and Lean practices
+        are the best approach to creating custom software applications that
+        quickly deliver real business value. With on-site coaching, we transform
+        companies and cultures by helping them embrace and adopt Agile
+        development practices. In our development studio we design and deliver
+        custom software, whether green-field or legacy systems, for customers
+        ranging from startups to enterprises. Our home is a 120-year old
+        steamship on Cleveland’s downtown shore of Lake Erie and as soon as you
+        step on our boat, you realize that we think, act, work, and do
+        differently.
