@@ -55,7 +55,7 @@
        Fix Style Profile and our personal stylists will handpick a "Fix" of five
        clothing items and accessories unique to your taste, budget and
        lifestyle. Simply buy what you like and return the rest.
-    extras: [banner]
+      extras: [banner]
     - name: Branding Brand
       twitter: '@brandingbrand'
       url: http://www.brandingbrand.com
