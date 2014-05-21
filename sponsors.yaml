@@ -85,3 +85,15 @@
         throughout every project. We're committed to helping move the web
         forward, and incorporating the most successful and future-friendly
         technologies in our work.
+    - name: IBM
+      twitter: '@ibmwatson'
+      url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/index.html
+      img: ibm.png
+      desc: >
+        Watson is a cognitive technology that processes information more like a
+        human than a computer—by understanding natural language, generating
+        hypotheses based on evidence and learning as it goes. IBM's Watson Group
+        has a major office in Pittsburgh, the Big Data Lab, formerly Vivísimo,
+        where Watson Explorer is developed. We are hiring the next generation of
+        computer scientists and software engineers to expand the cognitive
+        abilities of the Watson platform.
