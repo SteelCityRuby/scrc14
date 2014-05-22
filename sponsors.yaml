@@ -69,6 +69,15 @@
         Named the only mobile commerce leader by Forrester Research, it is
         also the largest m-commerce provider to the Internet Retailer Top 500.
       extras: [table]
+    - name: UPMC
+      twitter: '@UPMCCareers'
+      url: http://www.upmc.com/careers
+      img: upmc.png
+      desc: >
+        UPMC is a $10 billion integrated global health enterprise headquartered
+        in Pittsburgh, Pennsylvania, and one of the leading non-profit health
+        systems in the United States.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
