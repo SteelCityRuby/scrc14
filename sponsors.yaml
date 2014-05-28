@@ -11,6 +11,18 @@
         clothing!
 - level: Allegheny
   sponsors:
+    - name: LittleLines
+      twitter: '@littlelines'
+      url: http://www.littlelines.com/
+      img: littlelines.png
+      desc: >
+        We're the little lines that connect the dots. If you're not quite sure
+        how your website can get the response you want, leave it to us. We've
+        worked with clients of all shapes and sizes, hand-crafting applications
+        that consistently turn ideas into profitable and effective businesses.
+        Headquartered in Dayton, Ohio, our expert team of designers, developers,
+        and project managers offer all the services you need to start growing
+        your business today.
     - name: HoneyBadger.io
       twitter: '@honeybadgerapp'
       url: https://www.honeybadger.io/
