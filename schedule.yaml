@@ -11,8 +11,8 @@
         lobby and get ready for a great day. 
     - time: "9:00 am"
       name: Remembering SCRC14
-      speaker: Jean Lang
-      twitter: '@jean_lang'
+      speaker: Jean Lange
+      twitter: '@jean_lange'
       img: jean_lang.jpg
       desc: >
         Let's all (really all) talk about what this Ruby conference is for, 
@@ -230,8 +230,8 @@
         Details Will Be Outlined Soon
     - time: "5:30 pm"
       name: "Remembering SCRC14, reprise" 
-      speaker: Jean Lang
-      img: jean_lang.jpg
-      twitter: '@jean_lang'
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
       desc: > 
         Closing Remarks from the SCRC 2014 Team. Thank You!
