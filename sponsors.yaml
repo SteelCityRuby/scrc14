@@ -23,15 +23,6 @@
         Headquartered in Dayton, Ohio, our expert team of designers, developers,
         and project managers offer all the services you need to start growing
         your business today.
-    - name: HoneyBadger.io
-      twitter: '@honeybadgerapp'
-      url: https://www.honeybadger.io/
-      img: honeybadger.png
-      desc: >
-        HoneyBadger.io provides exception, uptime and performance monitoring for
-        your Ruby applications. It’s the only service you need to make sure your
-        apps are happy and healthy in production.
-      extras: [banner]
     - name: Not Invented Here
       twitter: '@nihcomic'
       url: http://notinventedhe.re
@@ -42,6 +33,15 @@
         dedicated to producing the highest quality product using internationally
         accepted best practices and industry standards. And then there are these
         guys.
+    - name: HoneyBadger.io
+      twitter: '@honeybadgerapp'
+      url: https://www.honeybadger.io/
+      img: honeybadger.png
+      desc: >
+        HoneyBadger.io provides exception, uptime and performance monitoring for
+        your Ruby applications. It’s the only service you need to make sure your
+        apps are happy and healthy in production.
+      extras: [banner]
     - name: New Relic
       twitter: '@newrelic'
       url: https://www.newrelic.com
