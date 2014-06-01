@@ -20,11 +20,14 @@ title: Schedule | Steel City Ruby Conf 2014 | August 15-16
             %h2= day['day'] 
             -day['events'].each do |event|
               .event.large-10.columns.large-offset-1
-                %img{src: 'assets/img/charles_nutter.jpeg'}
                 %h3= event['time']
                 %h4= event['name']
-                %p= event['desc']
+                .by-line
+                  %img{src: 'assets/img/charles_nutter.jpeg'}
+                  %span= event['speaker']
+                .desc
+                  %p= event['desc']
       .scroll-to-top
-      
+
       
   
