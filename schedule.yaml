@@ -4,7 +4,7 @@
     - time: 8:00
       name: Registration
       speaker: Steel City Ruby Conference
-      twitter: @SteelCityRuby
+      twitter: '@SteelCityRuby'
       desc: > 
         Welcome to Steel City Ruby Conference, please register in the 
         lobby and get ready for a great day. 
@@ -40,7 +40,7 @@
       twitter: '@SteelCityRuby'
       img: jean_lang.png
       desc: >
-      time: 11:00
+    - time: 11:00
       name: Utils is a Junk Drawer
       speaker: Franklin Weber
       twitter: '@franklinwebber'
@@ -123,4 +123,4 @@
       speaker: Laurent Sansonetti
       twitter: '@ModCloth'
       img: modcloth.png
-      desc: >
+      desc: > 
