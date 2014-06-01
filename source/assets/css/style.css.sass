@@ -12,7 +12,7 @@
   background-color: #000
   padding-top: 1%
 
-#speakers
+#speakers, #schedule
   width: 100%
   background-color: #171D1E
   color: #aaa
@@ -22,7 +22,7 @@
     color: #ffcc2f
   a
     color: #eab100
-  .speaker
+  .speaker, .event
     padding: 15px
     vertical-align: top
     display: inline-block
@@ -39,9 +39,48 @@
       text-align: left
       font-size: 32px
       text-transform: none
-
+  
+  .date-select
+    border-bottom: 3px solid #ffcc2f
+    padding-bottom: 10px
+    width: 100%
+    a
+      color: #ffcc2f
+      text-align: left
+      font-size: 32px
+      text-transform: none
+      padding: 0px 70px
+      @media (max-width: 480px)
+        padding: 0px 0px
+      
+    a:hover
+      color: #fff
+    .date-select
+      text-align: center
+  .day
+    float: left
+    margin-top: 50px
+  .top
+    float: right
+    img
+      width: 40px
+      border-radius: 20px
 #cfp
   padding: 15%
+
+.scroll-to-top
+  position: fixed
+  right: 15%
+  top: 97%
+  background: url("../img/top.gif") no-repeat
+  cursor: pointer
+  width: 45px
+  height: 40px
+  bottom: 1em
+  padding-right: 1em
+  display: none
+  z-index: 999
+  border-radius: 25px
 
 img.sponsor-img
   &.level-ohio
