@@ -3,22 +3,31 @@ title: Schedule | Steel City Ruby Conf 2014 | August 15-16
 ---
 
 - schedule = YAML.parse_file("schedule.yaml").to_ruby
-
+%script(src='assets/js/schedule.js')
 %section#hero
   %img{src: 'assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
   %h2 Schedule of Events
-  
-  %div
-    %a{href: '/travel.html'} Friday August 15th
-    | |
-    %a{href: '/policies.html'} Saturday August 16th
-    
   %img{src: 'assets/img/pittsburgh_skyline@2x.png', style: 'width:100%;margin-top:20px;'}
+  #schedule
+    .row
+      .date-select
+        %a.day-select{href: '#friday'}Friday
+        %a.day-select{href: '#saturday'}Saturday
+    
+      -schedule.each do |day|
+        - unless day['events'].nil?
+          %div{ :id => day['day'], :class=> 'day' }
+            %h2= day['day'] 
+            -day['events'].each do |event|
+              .event.large-12.columns
+                %h3= event['time']
+                %h4= event['name']
+                .by-line
+                  %img{src: "assets/img/#{event['img']}"}
+                  %span= event['speaker']
+                .desc
+                  %p= event['desc']
+      .scroll-to-top
 
-
-
-  -schedule.each do |day|
-    - unless day['events'].nil?
-      -day['events'].each do |event|
-        %p
-          = event['name']
+      
+  
