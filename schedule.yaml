@@ -1,0 +1,237 @@
+---
+- day: friday
+  events:
+    - time: "8:00 am"
+      name: Registration
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: > 
+        Welcome to Steel City Ruby Conference, please register in the 
+        lobby and get ready for a great day. 
+    - time: "9:00 am"
+      name: Remembering SCRC14
+      speaker: Jean Lange
+      twitter: '@jean_lange'
+      img: jean_lang.jpg
+      desc: >
+        Let's all (really all) talk about what this Ruby conference is for, 
+        why you're here, and what you're going to do to go home thrilled with 
+        your experience. First, listen to my perspective - I say this 
+        conference is for strengthening and broadening our sense of 
+        ourselves as Rubyists so that we can learn from each other and 
+        move forward as a community. Then wield your markers and 
+        stickies to start to express and share your ideas about what 
+        will make SCRC14 amazing for you and for us
+    - time: "9:30 am"
+      name: Break
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+    - time: "10:00 am"
+      name: JRuby
+      speaker: Charles Nutter
+      twitter: '@headius'
+      img: charles_nutter.jpeg
+      desc: >
+        Details Will Be Outlined Soon
+    - time: "10:30 am"
+      name: Break
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+    - time: "11:00 am"
+      name: Utils is a Junk Drawer
+      speaker: Franklin Weber
+      twitter: '@franklinwebber'
+      img: franklin_weber.JPG
+      desc: >
+        Nearly all our larger scale applications end up with a utils 
+        folder, module, or class. We all know them as our project's 
+        junk drawers. The wayward place for motley code. In this talk
+        we will explore these junk drawers, come to know their stories,
+         and lay to rest the question: Does having a junk drawer in my 
+         application make everything better or worse?
+    - time: "11:30 am"
+      name: Lunch
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+        Lunch will be served untill 1:00 pm.
+    - time: "1:30 pm"
+      name: The Metaphysics of Strings
+      speaker: Greg Gates
+      twitter: '@gregates'
+      img: greg_gates.png
+      desc: >
+        Presenting a paradox involving two ruby strings which are 
+        equal and constructed in ways that look very similar, but which
+        ave different properties -- one of them is "html_safe" and the 
+        other is not. The goal of the talk is to explore three things 
+        about this paradox.
+    - time: "2:00 pm"
+      name: Break
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+    - time: "2:30 pm"
+      name: Lightning Talks
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+        Details Will Be Outlined Soon 
+    - time: "3:00 pm"
+      name: Better Coding with Ruby Lambdas
+      speaker: Keith Bennett
+      twitter: '@SteelCityRuby'
+      img: keith_bennett.png
+      desc: >
+        We Rubyists reject unnecessary ceremony and complexity, always 
+        striving to minimize complexity as much as possible without 
+        sacrificing clarity. So why are we not using functional approaches 
+        when object oriented approaches fail to go the last mile?
+    - time: "3:30 pm"
+      name: Break
+      speaker: SCRC
+      twitter: '@SteelCityRuby'
+      img: scrc.png
+      desc: >
+    - time: "4:00 pm"
+      name: Saving the World with Ruby
+      speaker: Sean Marcia
+      twitter: '@seanmarcia'
+      img: sean_marcia.jpg
+      desc: >
+        Two thirds of honeybee hives have died out in Virginia. Is it 
+        possible for us to devise a way of monitoring beehives in 
+        remote locations to find the cause? Enter a raspberry pi +
+         rails. Using a combination of this robust hardware and 
+         software solution, we were able to successfully track, 
+         monitor and provide reporting on the well-being of hives from 
+         across the county. Find out how we used ruby, rails, solar 
+         panels and other libraries to provide insight into this problem.
+    - time: "4:30 pm"
+      name: New Development in RubyMotion
+      speaker: Laurent Sansonetti
+      twitter: '@lrz'
+      img: laurent_sansonetti.jpg
+      desc: >
+        Details Will Be Outlined Soon
+    - time: "6:00 - 11:00 pm"
+      name: ModCloth Party
+      speaker: Thanks to ModCloth
+      twitter: '@ModCloth'
+      img: modcloth.png
+      desc: >
+        Details Will Be Outlined Soon
+- day: saturday
+  events:
+    - time: "10:00 am"
+      name: Ruby Motion and Accessibility
+      speaker: Austin Seraphin
+      img: austin_seraphin.jpg
+      twitter: '@AustinSeraphin'
+      desc: > 
+        How does a blind person even use an iPhone? Learn through personal stories 
+        why accessibility matters and some simple things you can do. Additionally, 
+        learn about some RubyMotion tools to improve accessibility both for sighted 
+        and blind iOS developers.
+    - time: "10:30 am"
+      name: Break
+      speaker: SCRC
+      img: scrc.png
+      twitter: '@SteelCityRuby'
+      desc: > 
+    - time: "11:00 am"
+      name: From Whence Rubygems?
+      speaker:  Timothy Uruski
+      img: timothy_uruski.jpg
+      twitter: '@timuruski'
+      desc: > 
+        Where do Rubygems come from? We will trace the journey a Gem takes on its 
+        way into your codebase, mapping paths through tools like RVM, rbenv and 
+        Bundler. Along the way we will learn how these tools wrangle third party 
+        Ruby code into place and what methods they share.
+    - time: "11:30 am"
+      name: Using Ruby for Journalism
+      speaker: Derek Willis
+      img: derek_willis.jpg
+      twitter: '@derekwillis'
+      desc: > 
+        Although Ruby is well-known for its use in popular consumer applications, 
+        it also has been used for several years in major newsrooms such as The New 
+        York Times and ProPublica to build "news applications" that display data, 
+        serve APIs and help inform readers. This isn't a typical web development 
+        environment: in newsrooms, deadlines can mean hours, not weeks, and often 
+        involve unfamiliar datasets and the challenges of both real-time publishing 
+        and archived material. In this talk I'll introduce developers to the unique 
+        world of newsroom developers and some of the applications and tools they've 
+        built using Ruby.
+    - time: "12:00 pm"
+      name: Lunch
+      speaker: SCRC
+      img: scrc.png
+      twitter: '@SteelCityRuby'
+      desc: > 
+        Lunch will be served until 2:00 pm
+    - time: "2:00 pm"
+      name: Jam Session
+      speaker: SCRC
+      img: scrc.png
+      twitter: '@SteelCityRuby'
+      desc: > 
+        Details Will Be Outlined Soon
+    - time: "2:30 pm"
+      name: From Dev to Founder
+      speaker: Bryan Helmkamp
+      img: bryan_helmkamp.jpg
+      twitter: '@brynary'
+      desc: > 
+        Details Will Be Outlined Soon
+    - time: "3:00 pm"
+      name: Break
+      speaker: SCRC
+      img: scrc.png
+      twitter: '@SteelCityRuby'
+      desc: > 
+    - time: "3:30 pm"
+      name: Better Visualizations with Science
+      speaker: John Feminella
+      img: john_feminella.jpg
+      twitter: '@jxxf'
+      desc: > 
+        We've got a lot of tools at our disposal to render data in all kinds of interesting ways: charts, tables, gauges, and so on. Yet most dashboards are designed for consumption by humans, and many users say they don't get a lot of value from these visualizations -- or even worse, they find them confusing to use. We're doing something wrong.
+        In this talk, we'll describe the scientifically-validated attributes of great visualizations, point out some common antipatterns that we think you should avoid, and illustrate how to optimize for showing the most relevant facets of a dataset. Don't let your dashboard become another statistic!
+    - time: "4:00 pm"
+      name: Dealing with the Demands of the Open Source Community
+      speaker: Seth Vargo
+      img: seth_vargo.png
+      twitter: '@sethvargo'
+      desc: > 
+        They don't pay us money. They don't understand the goals of the project. They don't even say "thank you". But studies and personal experiences have proven that users of open source software are more demanding than those same users who pay for software. Why?
+        Understanding the "why" will help us discover the "how". How can we solve this problem? Because it's not a technical one - it's a cultural one.
+    - time: "4:30 pm"
+      name: Break
+      speaker: SCRC
+      img: scrc.png
+      twitter: '@SteelCityRuby'
+      desc: >
+    - time: "5:00 pm"
+      name: Generative Testing for Better Code
+      speaker: Jessica Kerr
+      img: jessica_kerr.jpeg
+      twitter: '@jessitron'
+      desc: > 
+        Details Will Be Outlined Soon
+    - time: "5:30 pm"
+      name: "Remembering SCRC14, reprise" 
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
+      desc: > 
+        Closing Remarks from the SCRC 2014 Team. Thank You!
