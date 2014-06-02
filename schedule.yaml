@@ -67,7 +67,7 @@
       twitter: '@gregates'
       img: greg_gates.png
       desc: >
-        Presenting a paradox involving two ruby strings which are 
+        Presenting a paradox involving two Ruby strings which are 
         equal and constructed in ways that look very similar, but which
         ave different properties -- one of them is "html_safe" and the 
         other is not. The goal of the talk is to explore three things 
@@ -109,12 +109,12 @@
       desc: >
         Two thirds of honeybee hives have died out in Virginia. Is it 
         possible for us to devise a way of monitoring beehives in 
-        remote locations to find the cause? Enter a raspberry pi +
-         rails. Using a combination of this robust hardware and 
-         software solution, we were able to successfully track, 
-         monitor and provide reporting on the well-being of hives from 
-         across the county. Find out how we used ruby, rails, solar 
-         panels and other libraries to provide insight into this problem.
+        remote locations to find the cause? Enter a Raspberry Pi +
+        Rails. Using a combination of this robust hardware and 
+        software solution, we were able to successfully track, 
+        monitor and provide reporting on the well-being of hives from 
+        across the county. Find out how we used Ruby, Rails, solar 
+        panels and other libraries to provide insight into this problem.
     - time: "4:30 pm"
       name: New Development in RubyMotion
       speaker: Laurent Sansonetti
