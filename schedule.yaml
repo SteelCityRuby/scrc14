@@ -230,7 +230,8 @@
       img: jessica_kerr.jpeg
       twitter: '@jessitron'
       desc: > 
-        Details Will Be Outlined Soon
+        What’s better than Test-Driven Development? Even more test driven development! Unit tests are useful, but it's impractical to cover every situation. The more we try, the more tests we write, the more lines of code we maintain.
+        What if we could cover every valid scenario with exactly one test? The goal of Generative Testing is to carefully define every possible input, then let the framework run hundreds of scenarios through the same test. It means thinking about more than a few examples, and deciding what the code should do in every possible situation. This kind of test is much harder to write -- and that’s the best reason to do it. Thinking before coding is the real purpose of TDD, and this kind of testing drives us to think harder. Generative testing won’t just sharpen your test and your code: it can sharpen your mind.
     - time: "5:30 pm"
       name: "Remembering SCRC14, reprise" 
       speaker: SCRC
