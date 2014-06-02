@@ -30,7 +30,7 @@ title: Steel City Ruby Conf 2014 | August 15-16
         - unless day['events'].nil?
           - day['events'].each do |event|
             - next if ['SCRC','Thanks to ModCloth'].include? event['speaker']
-            .speaker.large-3.columns
+            .speaker
               %img{src: "assets/img/#{event['img']}"}
               %h3= event['speaker']
     .row
