@@ -60,7 +60,7 @@
       twitter: '@SteelCityRuby'
       img: scrc.png
       desc: >
-        Lunch will be served untill 1:00 pm.
+        Lunch will be untill 1:00 pm.
     - time: "1:30 pm"
       name: The Metaphysics of Strings
       speaker: Greg Gates
@@ -178,14 +178,17 @@
       img: scrc.png
       twitter: '@SteelCityRuby'
       desc: > 
-        Lunch will be served until 2:00 pm
+        Lunch will be until 2:00 pm
     - time: "2:00 pm"
       name: Jam Session
       speaker: SCRC
       img: scrc.png
       twitter: '@SteelCityRuby'
       desc: > 
-        Details Will Be Outlined Soon
+        In honor of our late friend Jim Weirich, we will be dedicating a spot
+        to a jam session. Jim was known for bringing his ukelele to conferences
+        and hosting impromptu jam sessions. We're going to have a spot in our
+        schedule for others to continue this trend.
     - time: "2:30 pm"
       name: From Dev to Founder
       speaker: Bryan Helmkamp
