@@ -116,12 +116,12 @@
         across the county. Find out how we used Ruby, Rails, solar 
         panels and other libraries to provide insight into this problem.
     - time: "4:30 pm"
-      name: New Development in RubyMotion
+      name: Inside RubyMotion for Android
       speaker: Laurent Sansonetti
       twitter: '@lrz'
       img: laurent_sansonetti.jpg
       desc: >
-        Details Will Be Outlined Soon
+        RubyMotion is a command-line Ruby based toolchain that initially allowed the development of iOS and OS X apps. Recently, Android support was introduced, and RubyMotion can therefore be used to write Android apps too. RubyMotion for Android features a brand new implementation of Ruby. In this session we will dive inside RubyMotion for Android and see how things work internally. This will be a technical presentation featuring demos.
     - time: "6:00 - 11:00 pm"
       name: ModCloth Party
       speaker: Thanks to ModCloth
