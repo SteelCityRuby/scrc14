@@ -69,7 +69,7 @@
       desc: >
         Presenting a paradox involving two Ruby strings which are 
         equal and constructed in ways that look very similar, but which
-        ave different properties -- one of them is "html_safe" and the 
+        have different properties -- one of them is "html_safe" and the 
         other is not. The goal of the talk is to explore three things 
         about this paradox.
     - time: "2:00 pm"
