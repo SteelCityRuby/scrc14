@@ -90,6 +90,19 @@
         in Pittsburgh, Pennsylvania, and one of the leading non-profit health
         systems in the United States.
       extras: [table]
+    - name: LivingSocial
+      twitter: '@livingsocialjob'
+      url: http://www.livingsocial.com
+      img: livingsocial.png
+      desc: >
+        At LivingSocial, we're revolutionizing local ecommerce. With millions of
+        consumers and tens of thousands of merchants using our web and mobile
+        tools, we're constantly focused on improving our suite of products.
+        Using data to drive decisions, our engineers are solving hard problems
+        at the heart of our business. We need hungry, creative, and pragmatic
+        engineers to help us to continue to innovate and make advances yet to be
+        seen. Are you ready to make a difference? If so, we want to invest in
+        you.
 - level: Monongahela
   sponsors:
     - name: TeamSnap
