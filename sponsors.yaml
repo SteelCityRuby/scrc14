@@ -90,6 +90,18 @@
         in Pittsburgh, Pennsylvania, and one of the leading non-profit health
         systems in the United States.
       extras: [table]
+    - name: DNSimple
+      twitter: '@dnsimple'
+      url: http://www.dnsimple.com
+      img: dnsimple.png
+      desc: >
+        DNSimple is a hosted DNS service that you can use to manage your domain
+        names. Plans start at $8 per month for up to 10 managed domains. You can
+        also use DNSimple to register domain names and purchase SSL
+        certificates. With top-notch customer support, one-click services and a
+        robust API, DNSimple makes managing your DNS simple and painless. We
+        love our customers and are always here to help. Sign up now and get a
+        free 30 day trial that you may cancel at any time.
 - level: Monongahela
   sponsors:
     - name: TeamSnap
