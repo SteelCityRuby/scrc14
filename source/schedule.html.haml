@@ -14,21 +14,18 @@ title: Schedule | Steel City Ruby Conf 2014 | August 15-16
       .date-select
         %a.day-select{href: '#friday'}Friday
         %a.day-select{href: '#saturday'}Saturday
-    
+
       -schedule.each do |day|
         - unless day['events'].nil?
           %div{ :id => day['day'], :class=> 'day' }
-            %h2= day['day'] 
+            %h2= day['day']
             -day['events'].each do |event|
               .event.large-12.columns
                 %h3= event['time']
                 %h4= event['name']
                 .by-line
-                  %img{src: "assets/img/#{event['img']}"}
+                  %img{"data-src" => "/assets/img/thumbs/#{event['img']}", "data-webp" => "/assets/img/thumbs/#{event['img'].match(/(.*)\./)[1]}.webp"}
                   %span= event['speaker']
                 .desc
                   %p= event['desc']
       .scroll-to-top
-
-      
-  
