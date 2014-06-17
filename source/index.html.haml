@@ -31,7 +31,7 @@ title: Steel City Ruby Conf 2014 | August 15-16
           - day['events'].each do |event|
             - next if ['SCRC','Thanks to ModCloth'].include? event['speaker']
             .speaker
-              %img{src: "assets/img/#{event['img']}"}
+              %img{"data-src" => "assets/img/thumbs/#{event['img']}", "data-webp" => "assets/img/thumbs/#{event['img'].match(/(.*)\./)[1]}.webp"}
               %h3= event['speaker']
     .row
       %a{href: 'schedule'} Full Schedule
