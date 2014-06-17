@@ -1,12 +1,25 @@
 ---
 title: Sponsor Details | Steel City Ruby Conf 2014 | August 15-16
 ---
+%section#hero
+  %a{href: "/"}
+    %img{src: 'assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
+  %h2 2014 Sponsors in Detail
+  %div
+    %a{href: '/schedule'} Schedule
+    | |
+    %a{href: '/travel'} Travel information
+    | |
+    %a{href: '/policies'} Policies & Procedures
+    | |
+    %a{href: '/sponsorship'} Sponsorship
+    | |
+    %a{href: 'https://docs.google.com/forms/d/1cObMCml_x5lUOOaM3rqdO6skgUY6S4yXuEcKYv2Bc-A/viewform'} Scholarships
+  %img{src: 'assets/img/pittsburgh_skyline@2x.png', style: 'width:100%;margin-top:20px;'}
 
 - y = YAML.parse_file("sponsors.yaml").to_ruby
 
 %section#copy
-  %h1 2014 Sponsors in Detail
-
   :markdown
     We thank our very gracious and generous sponsors for their support of SCRC.
     This event would not be possible without them.
