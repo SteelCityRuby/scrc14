@@ -5,7 +5,7 @@
       name: Registration
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
         Welcome to Steel City Ruby Conference, please register in the
         lobby and get ready for a great day.
@@ -27,7 +27,7 @@
       name: Break
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
     - time: "10:00 am"
       name: JRuby
@@ -40,7 +40,7 @@
       name: Break
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
     - time: "11:00 am"
       name: Utils is a Junk Drawer
@@ -58,7 +58,7 @@
       name: Lunch
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
         Lunch will be untill 1:00 pm.
     - time: "1:30 pm"
@@ -76,13 +76,13 @@
       name: Break
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
     - time: "2:30 pm"
       name: Lightning Talks
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
         Details Will Be Outlined Soon
     - time: "3:00 pm"
@@ -99,7 +99,7 @@
       name: Break
       speaker: SCRC
       twitter: '@SteelCityRuby'
-      img: scrc.png
+      img: scrc.jpg
       desc: >
     - time: "4:00 pm"
       name: Saving the World with Ruby
@@ -126,7 +126,7 @@
       name: ModCloth Party
       speaker: Thanks to ModCloth
       twitter: '@ModCloth'
-      img: modcloth.png
+      img: modcloth.jpg
       desc: >
         Details Will Be Outlined Soon
 - day: saturday
@@ -144,7 +144,7 @@
     - time: "10:30 am"
       name: Break
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
     - time: "11:00 am"
@@ -175,14 +175,14 @@
     - time: "12:00 pm"
       name: Lunch
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
         Lunch will be until 2:00 pm
     - time: "2:00 pm"
       name: Jam Session
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
         In honor of our late friend Jim Weirich, we will be dedicating a spot
@@ -199,7 +199,7 @@
     - time: "3:00 pm"
       name: Break
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
     - time: "3:30 pm"
@@ -221,7 +221,7 @@
     - time: "4:30 pm"
       name: Break
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
     - time: "5:00 pm"
@@ -235,7 +235,7 @@
     - time: "5:30 pm"
       name: "Remembering SCRC14, reprise"
       speaker: SCRC
-      img: scrc.png
+      img: scrc.jpg
       twitter: '@SteelCityRuby'
       desc: >
         Closing Remarks from the SCRC 2014 Team. Thank You!
