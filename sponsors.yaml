@@ -115,6 +115,22 @@
         robust API, DNSimple makes managing your DNS simple and painless. We
         love our customers and are always here to help. Sign up now and get a
         free 30 day trial that you may cancel at any time.
+    - name: WePay
+      twitter: '@wepay'
+      url: http://www.wepay.com
+      img: wepay.png
+      desc: >
+        WePay powers payments for crowdfunding sites, marketplaces, and
+        small-business platforms. WePay's robust API includes advanced payment
+        features including recurring payments, credit card vaulting, and letting
+        you choose your mix of iframes and tokenization for a seamless, custom
+        payment experience. WePay onboards merchants in just a few form fields
+        thanks to its patented risk engine Veda (tm), which scours the web and
+        pulls as many data points related to that merchant including but not
+        limited to social data. This allows WePay to develop risk profiles for
+        merchants instantly. The results are faster payouts for legitimate
+        merchants and better fraud prevention.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
