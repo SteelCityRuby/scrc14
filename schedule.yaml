@@ -60,18 +60,15 @@
       twitter: '@SteelCityRuby'
       img: scrc.jpg
       desc: >
-        Lunch will be untill 1:00 pm.
+        Lunch will be until 1:30 pm.
     - time: "1:30 pm"
-      name: The Metaphysics of Strings
-      speaker: Greg Gates
-      twitter: '@gregates'
-      img: greg_gates.jpg
+      name: Better Visualizations with Science
+      speaker: John Feminella
+      img: john_feminella.jpg
+      twitter: '@jxxf'
       desc: >
-        Presenting a paradox involving two Ruby strings which are
-        equal and constructed in ways that look very similar, but which
-        have different properties -- one of them is "html_safe" and the
-        other is not. The goal of the talk is to explore three things
-        about this paradox.
+        We've got a lot of tools at our disposal to render data in all kinds of interesting ways: charts, tables, gauges, and so on. Yet most dashboards are designed for consumption by humans, and many users say they don't get a lot of value from these visualizations -- or even worse, they find them confusing to use. We're doing something wrong.
+        In this talk, we'll describe the scientifically-validated attributes of great visualizations, point out some common antipatterns that we think you should avoid, and illustrate how to optimize for showing the most relevant facets of a dataset. Don't let your dashboard become another statistic!
     - time: "2:00 pm"
       name: Break
       speaker: SCRC
@@ -203,13 +200,16 @@
       twitter: '@SteelCityRuby'
       desc: >
     - time: "3:30 pm"
-      name: Better Visualizations with Science
-      speaker: John Feminella
-      img: john_feminella.jpg
-      twitter: '@jxxf'
+      name: The Metaphysics of Strings
+      speaker: Greg Gates
+      twitter: '@gregates'
+      img: greg_gates.jpg
       desc: >
-        We've got a lot of tools at our disposal to render data in all kinds of interesting ways: charts, tables, gauges, and so on. Yet most dashboards are designed for consumption by humans, and many users say they don't get a lot of value from these visualizations -- or even worse, they find them confusing to use. We're doing something wrong.
-        In this talk, we'll describe the scientifically-validated attributes of great visualizations, point out some common antipatterns that we think you should avoid, and illustrate how to optimize for showing the most relevant facets of a dataset. Don't let your dashboard become another statistic!
+        Presenting a paradox involving two Ruby strings which are
+        equal and constructed in ways that look very similar, but which
+        have different properties -- one of them is "html_safe" and the
+        other is not. The goal of the talk is to explore three things
+        about this paradox.
     - time: "4:00 pm"
       name: Dealing with the Demands of the Open Source Community
       speaker: Seth Vargo
