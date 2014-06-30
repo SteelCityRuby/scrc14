@@ -142,6 +142,16 @@
         career. Think Through Math combines award-winning math instruction
         backed by live certified math teachers and powerful individual and group
         motivation programs to help students succeed in math.​
+    - name: 4moms
+      twitter: '@4moms'
+      url: http://www.4moms.com
+      img: 4moms.png
+      desc: >
+        4moms® designs and develops dramatically better baby products, including the
+        4moms mamaRoo® infant seat, the 4moms breeze® playard and the 4moms
+        origami® stroller. Better for baby and easier for parents, 4moms has redefined
+        the baby gear industry through the use of advanced robotics.
+      extras: [banner, table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
