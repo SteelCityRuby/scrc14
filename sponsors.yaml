@@ -270,3 +270,23 @@
         send our Event Operations experts to plan admissions strategies and
         wrangle massive crowds. We look beyond the tickets to figure out how to
         use technology to make great events even better.
+- level: Media
+  sponsors:
+    - name: Pittsburgh Code & Supply
+      twitter: '@codeandsupply'
+      url: http://www.codeandsupply.co
+      img: codeandsupply.png
+      desc: >
+        Code & Supply is Pittsburgh's community for passionate coders. We've
+        built an ecosystem where we are divided by programming languages. But
+        that isn't how we operate. We are language agnostic. We are makers. We 
+        are a community.
+    - name: DevOpsDays Pittsburgh
+      twitter: '@devopsdayspgh'
+      url: http://devopsdays.org
+      img: devopsdays.png
+      desc: >
+        DevOpsDays is the conference that brings developers and operations
+        together. This yearly conference features traditional talks alongside
+        an afternoon of open spaces discussions.
+
