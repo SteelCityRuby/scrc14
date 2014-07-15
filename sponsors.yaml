@@ -283,3 +283,12 @@
         values: client focus, high integrity, teamwork, professional development
         and collaboration. These values have never let us down. We have built a
         thriving company and many solid customer relationships around them.
+    - name: MaxCDN
+      twitter: '@maxcdn'
+      url: http://www.maxcdn.com
+      img: maxcdn.png
+      desc: >
+        MaxCDN is a content delivery network (CDN) provider, based in Los
+        Angeles, California. Dedicated to reducing latency of rich-content
+        delivery, MaxCDN maintains regional edge-servers where customer files
+        are replicated in strategic locations around the world.
