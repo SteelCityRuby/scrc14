@@ -1,0 +1,71 @@
+---
+- day: friday
+  events:
+    - name: Remembering SCRC14
+      time: 9:00am -> 5:30pm
+      speaker: Jean Lange
+      twitter: '@jean_lange'
+      img: jean_lang.jpg
+      desc: >
+        Let's all (really all) talk about what this Ruby conference is for,
+        why you're here, and what you're going to do to go home thrilled with
+        your experience. First, listen to my perspective - I say this
+        conference is for strengthening and broadening our sense of
+        ourselves as Rubyists so that we can learn from each other and
+        move forward as a community. Then wield your markers and
+        stickies to start to express and share your ideas about what
+        will make SCRC14 amazing for you and for us
+    - name: Steel City Ruby Open Development
+      time: 10:00am -> 4:30pm
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
+      desc: >
+        Are you Stuck on a hard problem, interested in Discussions about development, 
+        or want to pick the brain of a fellow developer? Steel City Ruby has set up an area for open development. 
+        Giving anyone interested in a collaborative space to share ideas and get answers!
+    - name: Jam Session in honor of Jim Weirich
+      time: 1:00pm -> 3:00pm
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
+      desc: > 
+        Bring your instruments! In honor of our late friend Jim Weirich, we will be dedicating the stage to a jam session. 
+        Jim was known for bringing his ukelele to conferences and hosting impromptu one.  
+        So we're going to have a spot in our schedule for others to continue this trend.
+    - name: ModCloth Dual Track Party
+      speaker: ModCloth
+      twitter: '@ModCloth'
+      img: modcloth.jpg
+      desc: > 
+        Thanks to ModCloth we are going to have a dual track path this year!! Come by PNC park, the home of the Pittsburgh Pirates, 
+        after the conference. If you are into a little friendly competition bring your favorite board.There will be second room setup 
+        where you can challenge your fellow developers to a ??friendly?? game of what-have-you. In another room, there will be stimulating conversation, 
+        witty jabs, and jokes of all sorts. Friends, co-workers, and new acquaintances alike can partake in dining and drinks,
+        sharing an amazing view of the Pittsburgh skyline and Ball Park.
+- day: saturday
+  events:
+    - name: Remembering SCRC14
+      time: 10:00am -> 4:30pm
+      speaker: Jean Lange
+      twitter: '@jean_lange'
+      img: jean_lang.jpg
+      desc: >
+        Let's all (really all) talk about what this Ruby conference is for,
+        why you're here, and what you're going to do to go home thrilled with
+        your experience. First, listen to my perspective - I say this
+        conference is for strengthening and broadening our sense of
+        ourselves as Rubyists so that we can learn from each other and
+        move forward as a community. Then wield your markers and
+        stickies to start to express and share your ideas about what
+        will make SCRC14 amazing for you and for us
+    - name: Steel City Ruby Open Development
+      time: 10:00am -> 4:30pm
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
+      desc: >
+        Are you Stuck on a hard problem, interested in Discussions about development, 
+        or want to pick the brain of a fellow developer? Steel City Ruby has set up an area for open development. 
+        Giving anyone interested in a collaborative space to share ideas and get answers!
+         
