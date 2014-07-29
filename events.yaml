@@ -24,15 +24,6 @@
         Are you Stuck on a hard problem, interested in Discussions about development, 
         or want to pick the brain of a fellow developer? Steel City Ruby has set up an area for open development. 
         Giving anyone interested in a collaborative space to share ideas and get answers!
-    - name: Jam Session in honor of Jim Weirich
-      time: 1:00pm -> 3:00pm
-      speaker: SCRC
-      img: scrc.jpg
-      twitter: '@SteelCityRuby'
-      desc: > 
-        Bring your instruments! In honor of our late friend Jim Weirich, we will be dedicating the stage to a jam session. 
-        Jim was known for bringing his ukelele to conferences and hosting impromptu one.  
-        So we're going to have a spot in our schedule for others to continue this trend.
     - name: ModCloth Dual Track Party
       speaker: ModCloth
       twitter: '@ModCloth'
@@ -68,4 +59,13 @@
         Are you Stuck on a hard problem, interested in Discussions about development, 
         or want to pick the brain of a fellow developer? Steel City Ruby has set up an area for open development. 
         Giving anyone interested in a collaborative space to share ideas and get answers!
+    - name: Jam Session in honor of Jim Weirich
+      time: 1:30pm -> 2:30pm
+      speaker: SCRC
+      img: scrc.jpg
+      twitter: '@SteelCityRuby'
+      desc: > 
+        Bring your instruments! In honor of our late friend Jim Weirich, we will be dedicating the stage to a jam session. 
+        Jim was known for bringing his ukelele to conferences and hosting impromptu one.  
+        So we're going to have a spot in our schedule for others to continue this trend.
          
