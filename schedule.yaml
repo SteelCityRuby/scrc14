@@ -187,12 +187,17 @@
         and hosting impromptu jam sessions. We're going to have a spot in our
         schedule for others to continue this trend.
     - time: "2:30 pm"
-      name: From Dev to Founder
+      name: Entrepreneurship for Engineers
       speaker: Bryan Helmkamp
       img: bryan_helmkamp.jpg
       twitter: '@brynary'
       desc: >
-        Details Will Be Outlined Soon
+        At some point or another, many engineers entertain the thought of
+        venturing out and starting their own business. It's a scary idea, but
+        the promises of control, flexibility and financial independence are
+        compelling. This talk will explore the path from software engineer to
+        entrepreneur, with its challenges, rewards and tradeoffs, influenced
+        by my experience founding Code Climate.
     - time: "3:00 pm"
       name: Break
       speaker: SCRC
