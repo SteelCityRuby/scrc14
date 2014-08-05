@@ -292,3 +292,11 @@
         Angeles, California. Dedicated to reducing latency of rich-content
         delivery, MaxCDN maintains regional edge-servers where customer files
         are replicated in strategic locations around the world.
+    - name: Sticker Mule
+      twitter: '@stickermule'
+      url: http://stickermule.com
+      img: stickermule.png
+      desc: >
+        Custom stickers made easy. We help thousands of people, startups,
+        bloggers, artists and companies order awesome stickers that are printed
+        beautifully and ship fast.
