@@ -153,6 +153,21 @@
         origami® stroller. Better for baby and easier for parents, 4moms has redefined
         the baby gear industry through the use of advanced robotics.
       extras: [banner, table]
+    - name: Carney+Co
+      twitter: '@carneyandco'
+      url: http://carney.co
+      img: carneyco.png
+      desc: >
+        We are a marketing and technology firm. We create brand experiences that
+        build awareness, differentiate our clients from their competitors, and
+        increase conversion. We’ve worked with every kind of client, large or
+        small, progressive or cautious, and everything in between. With this
+        experience, we’ve learned that the most valuable tools are
+        inquisitiveness, patience and imagination. We’re curious people who
+        devote time to personal and experimental projects. These projects allow
+        us to develop new techniques and try innovative ideas that then inform
+        our client work.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
