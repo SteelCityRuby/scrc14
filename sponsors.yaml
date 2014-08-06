@@ -317,6 +317,14 @@
         Angeles, California. Dedicated to reducing latency of rich-content
         delivery, MaxCDN maintains regional edge-servers where customer files
         are replicated in strategic locations around the world.
+    - name: Pittsburgh Cultural Trust
+      twitter: '@culturaltrust'
+      url: http://trustarts.org/
+      img: pghculturaltrust.png
+      desc: >
+        From quality performing and visual arts to development of one of the
+        nation's most vibrant Cultural Districts, the Pittsburgh Cultural Trust
+        is a transformative force for Pittsburgh and the region.
     - name: Sticker Mule
       twitter: '@stickermule'
       url: http://stickermule.com
