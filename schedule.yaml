@@ -30,7 +30,7 @@
       img: scrc.jpg
       desc: >
     - time: "10:00 am"
-      name: JRuby: The Best Parts
+      name: "JRuby: The Best Parts"
       speaker: Charles Nutter
       twitter: '@headius'
       img: charles_nutter.jpg
@@ -39,7 +39,7 @@
         You may know it can run your Ruby code fast, take advantage of all cores in your system,
         and handle large applications and datasets with ease. But wait, there's more!
         JRuby can also be used to make games, desktop applications, Minecraft plugins,
-        Android apps... just about anything you can imagine. This talk will cover some 
+        Android apps... just about anything you can imagine. This talk will cover some
         of these awesome capabilities and show how you can get started with JRuby today.
     - time: "10:30 am"
       name: Break
