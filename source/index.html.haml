@@ -3,7 +3,7 @@ title: Steel City Ruby Conf 2014 | August 15-16
 ---
 
 %section#hero
-  %img{src: 'assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
+  %img{src: '/assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
   %h1 August 15-16, 2014
   %h2 Pittsburgh, PA
   %a.button{href: 'http://www.showclix.com/event/SteelCityRuby2014', title: 'Buy Steel City Ruby Tickets'} Register Now
@@ -21,7 +21,7 @@ title: Steel City Ruby Conf 2014 | August 15-16
     | |
     %a{href: '#speakers'} Speakers
 
-  %img{src: 'assets/img/pittsburgh_skyline@2x.png', style: 'width:100%;margin-top:20px;'}
+  %img{src: '/assets/img/pittsburgh_skyline@2x.png', style: 'width:100%;margin-top:20px;'}
   #speakers
     .row
       - schedule = YAML.parse_file("schedule.yaml").to_ruby
@@ -48,7 +48,7 @@ title: Steel City Ruby Conf 2014 | August 15-16
           - else
             - level['sponsors'].each do |sponsor|
               %a{href: sponsor['url']}
-                %img{src: "assets/img/sponsor_logos/#{sponsor["img"]}",
+                %img{src: "/assets/img/sponsor_logos/#{sponsor["img"]}",
                      alt: sponsor["name"],
                      class: "sponsor-img level-#{level["level"].downcase}"}
         %p

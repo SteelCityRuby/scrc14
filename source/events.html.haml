@@ -3,10 +3,10 @@ title: Events | Steel City Ruby Conf 2014 | August 15-16
 ---
 
 - schedule = YAML.parse_file("events.yaml").to_ruby
-%script(src='assets/js/schedule.js')
+%script(src='/assets/js/schedule.js')
 %section#hero
   %a{href: "/"}
-    %img{src: 'assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
+    %img{src: '/assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
   %h2 Events Happening at SCRC 2014
   = partial "nav"
   #schedule
