@@ -178,6 +178,20 @@
         provide to life. An automated infrastructure can accelerate your time to
         market, help you manage scale and complexity, and safeguard your systems.
       extras: [table]
+    - name: Engine Yard
+      twitter: '@engineyard'
+      url: http://engineyard.com
+      img: engineyard.png
+      desc: >
+        Engine Yard is the leading Ruby cloud application management platform
+        empowering developers and DevOps to provision, manage and monitor
+        applications in the cloud. Providing unmatched control and choice,
+        Engine Yard delivers a broad and trusted application cloud and expert
+        support that enables organizations to focus on creating great
+        applications, instead of managing their infrastructure. Thousands of
+        customers in 58 countries, from explosive-growth Web startups to
+        Fortune 500 enterprises, run on Engine Yard.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
