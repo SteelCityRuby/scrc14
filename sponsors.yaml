@@ -363,3 +363,13 @@
         DevOpsDays is the conference that brings developers and operations
         together. This yearly conference features traditional talks alongside
         an afternoon of open spaces discussions.
+    - name: United Pixelworkers
+      twitter: '@pixelworkers'
+      url: http://unitedpixelworkers.com
+      img: unitedpixelworkers.png
+      desc: >
+        United Pixelworkers was born of a simple idea: people in our industry
+        are very proud of what they do, but they're also proud of where they
+        live. What if we gave designers and developers a way to represent both
+        at once? United Pixelworkers produces a line of clothing that does just
+        that.
