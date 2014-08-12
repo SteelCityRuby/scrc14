@@ -9,6 +9,7 @@
         Shop the latest indie and retro-style women's clothing at ModCloth.
         Find dresses, tops, bottoms, outerwear, swimwear, and other fab women's
         clothing!
+      extras: [table]
 - level: Allegheny
   sponsors:
     - name: LittleLines
@@ -152,6 +153,31 @@
         origami® stroller. Better for baby and easier for parents, 4moms has redefined
         the baby gear industry through the use of advanced robotics.
       extras: [banner, table]
+    - name: Carney+Co
+      twitter: '@carneyandco'
+      url: http://carney.co
+      img: carneyco.png
+      desc: >
+        We are a marketing and technology firm. We create brand experiences that
+        build awareness, differentiate our clients from their competitors, and
+        increase conversion. We’ve worked with every kind of client, large or
+        small, progressive or cautious, and everything in between. With this
+        experience, we’ve learned that the most valuable tools are
+        inquisitiveness, patience and imagination. We’re curious people who
+        devote time to personal and experimental projects. These projects allow
+        us to develop new techniques and try innovative ideas that then inform
+        our client work.
+    - name: Chef
+      twitter: '@chef'
+      url: http://www.getchef.com
+      img: chef.png
+      desc: >
+        Chef is an automation platform that transforms infrastructure into code.
+        Stop thinking in terms of physical and virtual servers. With Chef, your
+        real asset is the code that brings those servers and the services they
+        provide to life. An automated infrastructure can accelerate your time to
+        market, help you manage scale and complexity, and safeguard your systems.
+      extras: [table]
 - level: Monongahela
   sponsors:
     - name: TeamSnap
@@ -270,6 +296,54 @@
         send our Event Operations experts to plan admissions strategies and
         wrangle massive crowds. We look beyond the tickets to figure out how to
         use technology to make great events even better.
+    - name: Summa Technologies
+      twitter: '@Summa_Tech'
+      url: http://www.summa-tech.com
+      img: summa.png
+      desc: >
+        Summa is a passionate team that transforms your business by making
+        software work for you. Summa has been providing high-impact IT
+        consulting services and custom software development since 1996. After
+        nearly two decades of growth, one constant has been our set of core
+        values: client focus, high integrity, teamwork, professional development
+        and collaboration. These values have never let us down. We have built a
+        thriving company and many solid customer relationships around them.
+    - name: MaxCDN
+      twitter: '@maxcdn'
+      url: http://www.maxcdn.com
+      img: maxcdn.png
+      desc: >
+        MaxCDN is a content delivery network (CDN) provider, based in Los
+        Angeles, California. Dedicated to reducing latency of rich-content
+        delivery, MaxCDN maintains regional edge-servers where customer files
+        are replicated in strategic locations around the world.
+    - name: Pittsburgh Cultural Trust
+      twitter: '@culturaltrust'
+      url: http://trustarts.org/
+      img: pghculturaltrust.png
+      desc: >
+        From quality performing and visual arts to development of one of the
+        nation's most vibrant Cultural Districts, the Pittsburgh Cultural Trust
+        is a transformative force for Pittsburgh and the region.
+    - name: Sticker Mule
+      twitter: '@stickermule'
+      url: http://stickermule.com
+      img: stickermule.png
+      desc: >
+        Custom stickers made easy. We help thousands of people, startups,
+        bloggers, artists and companies order awesome stickers that are printed
+        beautifully and ship fast.
+    - name: Atmosferiq
+      twitter: '@atmosferiq'
+      url: http://atmosferiq.com
+      img: atmosferiq.png
+      desc: >
+        Atmosferiq is marketing-mix management software that integrates online
+        and offline channels into a single tool. Our subscription-based platform
+        allows progressive marketers of small- and medium-sized businesses to
+        integrate all channels into one place, correlate multichannel activity,
+        improve the efficiency of marketing spend, and, ultimately, reveal more
+        customers.
 - level: Media
   sponsors:
     - name: Pittsburgh Code & Supply
@@ -279,7 +353,7 @@
       desc: >
         Code & Supply is Pittsburgh's community for passionate coders. We've
         built an ecosystem where we are divided by programming languages. But
-        that isn't how we operate. We are language agnostic. We are makers. We 
+        that isn't how we operate. We are language agnostic. We are makers. We
         are a community.
     - name: DevOpsDays Pittsburgh
       twitter: '@devopsdayspgh'
@@ -289,4 +363,3 @@
         DevOpsDays is the conference that brings developers and operations
         together. This yearly conference features traditional talks alongside
         an afternoon of open spaces discussions.
-
