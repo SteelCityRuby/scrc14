@@ -23,7 +23,20 @@ title: Steel City Ruby Conf 2014 | August 15-16
     %a{href: '#speakers'} Speakers
 
   %img{src: '/assets/img/pittsburgh_skyline@2x.png', style: 'width:100%;margin-top:20px;'}
-  #speakers
+  #venue
+    .row
+      %h2 Venue
+      .row
+        New Hazlett Theater
+        %br
+        6 Allegheny Square E
+        %br
+        North Side, Pittsburgh
+        %img{src: '/assets/img/nht.jpg', style: 'width: 100%;margin: 20px 0;'}
+        %br
+      .row
+        %a{href: '/travel'} More travel and venue information
+  #speakers{style: 'margin-top: 20px;'}
     .row
       - schedule = YAML.parse_file("schedule.yaml").to_ruby
       %h2 Speakers
