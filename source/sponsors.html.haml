@@ -5,7 +5,7 @@ title: Sponsor Details | Steel City Ruby Conf 2014 | August 15-16
   %a{href: "/"}
     %img{src: '/assets/img/scrc14_hero_logo@2x.png', style: 'width:70%;margin-bottom:20px;'}
   %h2 2014 Sponsors in Detail
-  
+
   = partial "nav"
 
 - y = YAML.parse_file("sponsors.yaml").to_ruby
@@ -21,7 +21,8 @@ title: Sponsor Details | Steel City Ruby Conf 2014 | August 15-16
     - unless level['sponsors'].nil?
       - level['sponsors'].each do |sponsor|
         %a{href: sponsor['url']}
-          %img{src: "/assets/img/sponsor_logos/#{sponsor["img"]}",
+          %img{"data-src" => "/assets/img/sponsor_logos/#{sponsor["img"]}",
+               "data-webp" => "/assets/img/sponsor_logos/webp/#{sponsor["img"].match(/(.*)\./)[1]}.webp",
                alt: sponsor["name"]}
         %p
           - unless sponsor["twitter"].nil?
