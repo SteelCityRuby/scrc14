@@ -358,3 +358,32 @@
         integrate all channels into one place, correlate multichannel activity,
         improve the efficiency of marketing spend, and, ultimately, reveal more
         customers.
+- level: Media
+  sponsors:
+    - name: Pittsburgh Code & Supply
+      twitter: '@codeandsupply'
+      url: http://www.codeandsupply.co
+      img: codeandsupply.png
+      desc: >
+        Code & Supply is Pittsburgh's community for passionate coders. We've
+        built an ecosystem where we are divided by programming languages. But
+        that isn't how we operate. We are language agnostic. We are makers. We
+        are a community.
+    - name: DevOpsDays Pittsburgh
+      twitter: '@devopsdayspgh'
+      url: http://devopsdays.org
+      img: devopsdays.png
+      desc: >
+        DevOpsDays is the conference that brings developers and operations
+        together. This yearly conference features traditional talks alongside
+        an afternoon of open spaces discussions.
+    - name: United Pixelworkers
+      twitter: '@pixelworkers'
+      url: http://unitedpixelworkers.com
+      img: unitedpixelworkers.png
+      desc: >
+        United Pixelworkers was born of a simple idea: people in our industry
+        are very proud of what they do, but they're also proud of where they
+        live. What if we gave designers and developers a way to represent both
+        at once? United Pixelworkers produces a line of clothing that does just
+        that.
