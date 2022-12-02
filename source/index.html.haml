@@ -48,6 +48,13 @@ title: Steel City Ruby Conf 2014 | August 15-16
               %h3= event['speaker']
     .row
       %a{href: 'schedule'} Full Schedule
+  #tweets
+    .row
+      .large-8.columns.large-offset-2
+        %br
+        %h2 Nice Things People Said About #SCRC14
+
+        != File.read "tweets.html"
 
   - y = YAML.parse_file("sponsors.yaml").to_ruby
   #sponsors
@@ -96,3 +103,5 @@ title: Steel City Ruby Conf 2014 | August 15-16
         </form>
         </div>
         <!--End mc_embed_signup-->
+
+%script{async: 'async', src: "https://platform.twitter.com/widgets.js", charset: "utf-8"}
