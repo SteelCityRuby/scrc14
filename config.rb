@@ -3,10 +3,10 @@
 ###
 
 # Change Compass configuration
-compass_config do |config|
-  config.output_style = :compact
-  config.line_comments = false
-end
+#compass_config do |config|
+#  config.output_style = :compact
+#  config.line_comments = false
+#end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -48,7 +48,7 @@ end
 
 activate :directory_indexes
 
-set :build_dir, "tmp"
+set :build_dir, "build"
 
 set :css_dir, 'assets/css'
 

@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-ruby "2.3.1"
+ruby "2.7.6"
 
-gem "middleman",    "~> 3.2.1"
-gem "rack-contrib", "~> 1.1.0"
-gem "rack-rewrite", "~> 1.5.0"
-gem "puma",         "~> 2.8.2"
+gem "middleman",    "~> 4"
+gem "rack-contrib", "~> 2"
+gem "rack-rewrite", "~> 1"
+gem "puma",         "~> 6"
+
+gem "sass-embedded", "~> 1.56"
