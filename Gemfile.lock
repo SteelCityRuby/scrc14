@@ -111,15 +111,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  ffi (~> 1.15)
   middleman (~> 4)
   puma (~> 6)
   rack-contrib (~> 2)
   rack-rewrite (~> 1)
   sass-embedded (~> 1.56)
-
-RUBY VERSION
-   ruby 2.7.6p219
 
 BUNDLED WITH
    2.3.26
