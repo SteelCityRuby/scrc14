@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=$("#schedule").scrollTop()+500,l=500;$(window).scroll(function(){$(this).scrollTop()>o?$(".scroll-to-top").fadeIn(l):$(".scroll-to-top").fadeOut(l)}),$(".scroll-to-top").click(function(){return $("html, body").animate({scrollTop:0},"slow"),!1})});

@@ -1,0 +1,1 @@
+function useRegular(){$("img[data-webp]").each(function(){$(this).attr("src",$(this).data("src"))})}function useWebP(){$("img[data-webp]").each(function(){$(this).attr("src",$(this).data("webp"))})}$(function(){WebP?WebP.isSupport(function(t){t?useWebP():useRegular()}):useRegular()});
