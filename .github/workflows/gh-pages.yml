@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Write CNAME
+        run: mkdir -p build && echo "2014.steelcityruby.org" > build/CNAME
       - name: Build & Deploy to GitHub Pages
         with:
           REMOTE_BRANCH: gh-pages
